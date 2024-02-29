@@ -1,0 +1,4 @@
+buka article controller bagian show lihat dokumentasi 
+1. copas bagian index lalu paste di show 
+2. php artisan storage:link jalankan di terminal
+3. untuk show lihat dokumentasi

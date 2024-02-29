@@ -1,0 +1,17 @@
+crud
+1. tambahkan secara manual di database beberapa nama categori 
+2. buat route categori php artisan make:controller Back/CategoryController -r
+3. buat folder kategory di views/back file index copas di file dashboard
+4. di file sidebar tambahkan ini href="{{ url('categories') }}
+5. di file route Route::resource('/categories', CategoryController::class);
+6. untuk file index categori lihat di dokumentasi 
+7. untuk file CategoryController bagian index lihat di dokumentasi dan tambahkan model
+8. buka bootstarp cari modal static
+9. di modal ambil class data-bs-toggle="modal" data-bs-target="#modalCreate" ini lalu copas dibagian create
+10. lalu copi yg ada di modal dan kita buat file untuk  modal di bawah index category lal paste dsna 
+11.  di file index masukan ini @include('Back.category.create-modal');
+12. untuk file di modal lihat dokumentasi
+13. di bagian route categroies tambahkan only ini berfungsi untuk yg di controller yg kita gunakan saja 
+14. buka dokumentasi laravel cari validate cari ini Displaying the Validation Errors lalu di copas di index categroies 
+15. di bagian model category isi protected
+16. buat modal untuk update 

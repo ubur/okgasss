@@ -1,0 +1,9 @@
+membagi hak akses user 
+1. buka user lalu structure pilih after password lalau isi role varchar 2 as define 2
+2. buka middleware laravel di web documentasi di bagian middleware parameter 
+3. buat php artisan make:middleware UserAccess lihat documentasi 
+4. buka kernel lalu tambahkan di bagian aliases 'UserAccess' =>\App\Http\Middleware\UserAccess::class
+5. buka web.php di bagian categories lihat documentasi
+6. buka  file sidebar edit bagian categories
+7. buka bagian index user edit bagian create dan bagian cretae lihat documentasi
+8. buka userController edit bagian index

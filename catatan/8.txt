@@ -1,0 +1,4 @@
+buka articlecontroller masuk menu edit 
+1. file create copas letakan di update untuk customnisasi lihat dokumntasi 
+2. di articlecontroller bagian update udabh menjadi updateArtcileRequest
+3.buat request  updateArtcileRequest

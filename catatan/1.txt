@@ -1,0 +1,16 @@
+1. download  starboostrap.com untuk tampilan frond end 
+2. untuk backend boostrap 5 example dashboard ctrl + u copas 
+3. buat dashboard controller bagian backend php artisan make:controller Back/dashboardController 
+4. copi yg di dashboard untuk di copas di index dashbaord kita
+5. buka boostrap cari bundle ganti yg di index
+6. klik dashboard.js web lalu copas buat folder di public/back/js/dashbaord.js
+7. yg di dashbaord.js ganti dengan ini src="{{asset('back/js/dashboard.js')}}"
+8. dibagian atas ganti cdn boostrap degna yg baru ambil di cdn bootrsrap
+9. cut file css yg dibagian bawah cdn buat folder di public di bawah js 
+10.  <link rel="stylesheet" href="{{ asset('back/custom/style.css') }}">  di bagian atas 
+11. bagian dashbaord,.js di atas ganti dengan ini <link href="{{ asset('back/custom/dashboard.css') }}" rel="stylesheet">
+12. di bagian index.blade.php pecah halaman buat folder di views layout/template cut di bagian index dari atas main dan cut juga di fotter di bawha main  di tengah ini buat @yield('content') untuk memangil main
+letakan di bawah @yield('content)
+13. untuk menyimpan file khusus sidebar buat file sidebar.blade.php dilayout
+14. cut bagian navsidebar di template letakan di file sidebar untuk memangil menu sidebar 
+di file template   @include('Back.layouts.sidebar')

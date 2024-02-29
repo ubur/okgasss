@@ -1,0 +1,33 @@
+instal yajra box
+1. buka web laravel yajra box 
+2. copas yg di bawah laravel 9 pilih yg 10 atau sesuaikan dengan versi laravel dan paste di terminal project kita tunggu sampai selesai
+3.buka file config/app.php letakan di bawah provider 
+4. buka articleController di index tambahkan if
+5. DataTables klik impor pilih yg facades
+6. pada file index article bagian foreach kita cut 
+7. tambahkan script ajax lihat dokumentasi 
+
+
+@foreach ($articles as $item)
+                        <tr>
+                            <td> {{ $loop->iteration }} </td>
+                            <td> {{ $item->title }} </td>
+                            <td> {{ $item->category->name }} </td>
+                            <td> {{ $item->views }} x </td>
+                            @if ($item->status == 0)
+                                <td>
+                                    <span class="badge bg-danger">Private</span>
+                                </td>
+                            @else
+                                <td>
+                                    <span class="badge bg-success">Publish</span>
+                                </td>
+                            @endif
+                            <td> {{ $item->publish_date }} </td>
+                            <td class="text-center">
+                                <a href="" class="btn btn-secondary">Detail</a>
+                                <a href="" class="btn btn-warning">Edit</a>
+                                <a href="" class="btn btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    @endforeach

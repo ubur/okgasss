@@ -1,0 +1,4 @@
+migration foreign key 
+
+1. buat migration php artisan make:model Artcile -m( -m untuk membuat migrtion bersamaan dengan model )
+2. jika pas migrate gagal coba di migrationnya ganti nama usahakan table categoris di ataas table article

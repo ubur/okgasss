@@ -1,0 +1,10 @@
+manajemen user 
+1. buka bagian route lihat dokumentasi 
+2. buka bagian template bagian company name ganti welcome {{auth()->users}}
+3. buka layouts/app copas form  liaht di dokumentasi
+4. copi modal create di categori lalu paste di user lalu edit lihat dokumentasi
+5. buat request php artisan make:request UserRequest lihat dokumentasi,
+6. buka user controller lihat dokumentasi
+7. copi di modal delete categori lalu paste di user lihat dokumentasi
+8. copi di modal update categori lalu paste di user lihat dokumentasi
+9. buat php artisan make:request UserUpdateRequest

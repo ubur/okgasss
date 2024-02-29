@@ -1,0 +1,22 @@
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+tampil data articles data tables client side 
+1. php artisan make:controller Back/ArticleController -r 
+2.buat folder article di views
+3. tambahkan di route untuk article
+4.copas yg di index categori letakan di index articel
+5. untuk file index article lihat di dokumentasi
+6. tambahkan manual di database article
+7. buka model article untuk membuat belongto
+8. import belongto di articel 
+9. tambahkan datatable buka bootsrap datatable
+    ->copi link css 
+10. di file template diatas head tambahkan @stack('css') dan di bagian bawah di atas </body> tambahkan @stack('js')
+11. di index tambahkan di bawah exetens @push('css')
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.0/css/dataTables.bootstrap5.css">
+@endpush
+dibagian bawah endsection tambahkan
+@push('js')
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.js"></script>
+@endpush

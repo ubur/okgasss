@@ -1,0 +1,7 @@
+1. buat article request php artisan make:request ArticleRequest
+2. buka ArticleRequest lihat dokumenasi 
+3. buka articelController  lalu buat di bagian create lihat di dokumenasi
+4. buat file create lalu isinya copas dri index untuk penyesuan isi lihat dokumenasi
+5. buka articelController lalu pada function store ganti article menjadi ArticleRequest karena kita ada ini 
+7. ddi file migration article tambahkan default(0) d bagian  $table->string('views')->default(0);
+8. buka di php database lalu buka article cari views ganti default none jadi as defined 0 

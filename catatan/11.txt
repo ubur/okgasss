@@ -1,0 +1,4 @@
+1. buka card bootsrap cari card style
+2. lalu paste di dashboard index hapus isinya terlebih dahulu
+3. untuk lebih jelas lihat dokumentasi
+4. buka dashboard controller

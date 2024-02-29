@@ -1,0 +1,11 @@
+1. buka laravel-ui di github lalu buka terminal lihat dokumentasi web
+    composer require laravel/ui
+    pilih generate login pilih paling atas 
+2. setelah penginstalan lalu register 
+3. buka app/rouetprovider ganti menjadi dashboard dan diloginController ganti jadi dahboard jg
+4. buka sidebar tambakan link pada menu user 
+5. buat controler php artisan make:controller Back/UserController
+6. buka route lalu tambakan route utnuk user 
+7. buat folder user dan index 
+8. lalu buka UserController lihat dokumentasi
+9. copas index category lalu paste di user index

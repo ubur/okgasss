@@ -1,0 +1,13 @@
+buka di github unisap laravel filemnanger
+1. sebelum isntal laravel filemnanger isntal  terlebih dahulu  intervention/image
+2. buka terminal lalu copas ini composer require intervention/image
+3. lalu instal laravel filemnanger
+4. buka config/app.php copas aliases disna di bagian bawah lalu copas Add service providers di bawah yajra 
+5. lalu ikuti yg di dokumentasi di web
+6. hapuse storage di folder publik lalu php artisan storage:link di terminal
+7. lalu buka ckeditor copi letakan di views article cretae  cdn aja lihat dokumentasi 
+8. edit bagian pada textarea
+9. Edit routes/web.php
+10. ganti localhost pada env sesuaikan dengan link web 
+11. copi bagian push di index letakan di updated 
+instal ckeditor 

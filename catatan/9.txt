@@ -1,0 +1,5 @@
+instal sweet alert copi bagian cdn kita paste di index letakan di bawah datatables
+2. untuk script lihat di dokumentasi di bawah datatables 
+3. buat link menuju delete article di ArtcleController
+4. buka layout template masukan csrf token bagian atas untuk token nya buka dokumentasi di laravel 
+5. buka function destroy lihat dokumentasi 
